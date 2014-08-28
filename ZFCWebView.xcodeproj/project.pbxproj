@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		833DE63B19AD73CE00EF8466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833DE63A19AD73CE00EF8466 /* Foundation.framework */; };
+		833DE63D19AD73CE00EF8466 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833DE63C19AD73CE00EF8466 /* CoreGraphics.framework */; };
+		833DE63F19AD73CE00EF8466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833DE63E19AD73CE00EF8466 /* UIKit.framework */; };
+		833DE64519AD73CE00EF8466 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 833DE64319AD73CE00EF8466 /* InfoPlist.strings */; };
+		833DE64719AD73CE00EF8466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 833DE64619AD73CE00EF8466 /* main.m */; };
+		833DE64B19AD73CE00EF8466 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 833DE64A19AD73CE00EF8466 /* AppDelegate.m */; };
+		833DE64D19AD73CE00EF8466 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833DE64C19AD73CE00EF8466 /* Images.xcassets */; };
+		833DE65419AD73CE00EF8466 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833DE65319AD73CE00EF8466 /* XCTest.framework */; };
+		833DE65519AD73CE00EF8466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833DE63A19AD73CE00EF8466 /* Foundation.framework */; };
+		833DE65619AD73CE00EF8466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833DE63E19AD73CE00EF8466 /* UIKit.framework */; };
+		833DE65E19AD73CE00EF8466 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 833DE65C19AD73CE00EF8466 /* InfoPlist.strings */; };
+		833DE66019AD73CE00EF8466 /* ZFCWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 833DE65F19AD73CE00EF8466 /* ZFCWebViewTests.m */; };
+		833DE66E19AD781700EF8466 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 833DE66D19AD781700EF8466 /* WebViewController.m */; };
+		833DE67319ADA3BF00EF8466 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833DE67219ADA3BF00EF8466 /* AVFoundation.framework */; };
+		833DE67B19ADAD1500EF8466 /* toolbar_leftarrow_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 833DE67519ADAD1500EF8466 /* toolbar_leftarrow_highlighted@2x.png */; };
+		833DE67C19ADAD1500EF8466 /* toolbar_leftarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 833DE67619ADAD1500EF8466 /* toolbar_leftarrow@2x.png */; };
+		833DE67D19ADAD1500EF8466 /* toolbar_refresh_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 833DE67719ADAD1500EF8466 /* toolbar_refresh_highlighted@2x.png */; };
+		833DE67E19ADAD1500EF8466 /* toolbar_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 833DE67819ADAD1500EF8466 /* toolbar_refresh@2x.png */; };
+		833DE67F19ADAD1500EF8466 /* toolbar_rightarrow_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 833DE67919ADAD1500EF8466 /* toolbar_rightarrow_highlighted@2x.png */; };
+		833DE68019ADAD1500EF8466 /* toolbar_rightarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 833DE67A19ADAD1500EF8466 /* toolbar_rightarrow@2x.png */; };
+		833DE69319ADCE3A00EF8466 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 833DE69219ADCE3A00EF8466 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		833DE65719AD73CE00EF8466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833DE62F19AD73CE00EF8466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833DE63619AD73CE00EF8466;
+			remoteInfo = ZFCWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		833DE63719AD73CE00EF8466 /* ZFCWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFCWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		833DE63A19AD73CE00EF8466 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		833DE63C19AD73CE00EF8466 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		833DE63E19AD73CE00EF8466 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		833DE64219AD73CE00EF8466 /* ZFCWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZFCWebView-Info.plist"; sourceTree = "<group>"; };
+		833DE64419AD73CE00EF8466 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833DE64619AD73CE00EF8466 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		833DE64819AD73CE00EF8466 /* ZFCWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZFCWebView-Prefix.pch"; sourceTree = "<group>"; };
+		833DE64919AD73CE00EF8466 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		833DE64A19AD73CE00EF8466 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		833DE64C19AD73CE00EF8466 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		833DE65219AD73CE00EF8466 /* ZFCWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFCWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		833DE65319AD73CE00EF8466 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		833DE65B19AD73CE00EF8466 /* ZFCWebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZFCWebViewTests-Info.plist"; sourceTree = "<group>"; };
+		833DE65D19AD73CE00EF8466 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833DE65F19AD73CE00EF8466 /* ZFCWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFCWebViewTests.m; sourceTree = "<group>"; };
+		833DE66C19AD781700EF8466 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		833DE66D19AD781700EF8466 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		833DE66F19AD7E0800EF8466 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		833DE67019AD89D000EF8466 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		833DE67119AD89D000EF8466 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		833DE67219ADA3BF00EF8466 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		833DE67519ADAD1500EF8466 /* toolbar_leftarrow_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_leftarrow_highlighted@2x.png"; sourceTree = "<group>"; };
+		833DE67619ADAD1500EF8466 /* toolbar_leftarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_leftarrow@2x.png"; sourceTree = "<group>"; };
+		833DE67719ADAD1500EF8466 /* toolbar_refresh_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_refresh_highlighted@2x.png"; sourceTree = "<group>"; };
+		833DE67819ADAD1500EF8466 /* toolbar_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_refresh@2x.png"; sourceTree = "<group>"; };
+		833DE67919ADAD1500EF8466 /* toolbar_rightarrow_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_rightarrow_highlighted@2x.png"; sourceTree = "<group>"; };
+		833DE67A19ADAD1500EF8466 /* toolbar_rightarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_rightarrow@2x.png"; sourceTree = "<group>"; };
+		833DE69119ADCE3A00EF8466 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		833DE69219ADCE3A00EF8466 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		833DE63419AD73CE00EF8466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833DE67319ADA3BF00EF8466 /* AVFoundation.framework in Frameworks */,
+				833DE63D19AD73CE00EF8466 /* CoreGraphics.framework in Frameworks */,
+				833DE63F19AD73CE00EF8466 /* UIKit.framework in Frameworks */,
+				833DE63B19AD73CE00EF8466 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833DE64F19AD73CE00EF8466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833DE65419AD73CE00EF8466 /* XCTest.framework in Frameworks */,
+				833DE65619AD73CE00EF8466 /* UIKit.framework in Frameworks */,
+				833DE65519AD73CE00EF8466 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		833DE62E19AD73CE00EF8466 = {
+			isa = PBXGroup;
+			children = (
+				833DE64019AD73CE00EF8466 /* ZFCWebView */,
+				833DE65919AD73CE00EF8466 /* ZFCWebViewTests */,
+				833DE63919AD73CE00EF8466 /* Frameworks */,
+				833DE63819AD73CE00EF8466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		833DE63819AD73CE00EF8466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833DE63719AD73CE00EF8466 /* ZFCWebView.app */,
+				833DE65219AD73CE00EF8466 /* ZFCWebViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833DE63919AD73CE00EF8466 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				833DE67219ADA3BF00EF8466 /* AVFoundation.framework */,
+				833DE63A19AD73CE00EF8466 /* Foundation.framework */,
+				833DE63C19AD73CE00EF8466 /* CoreGraphics.framework */,
+				833DE63E19AD73CE00EF8466 /* UIKit.framework */,
+				833DE65319AD73CE00EF8466 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		833DE64019AD73CE00EF8466 /* ZFCWebView */ = {
+			isa = PBXGroup;
+			children = (
+				833DE66F19AD7E0800EF8466 /* Constant.h */,
+				833DE64919AD73CE00EF8466 /* AppDelegate.h */,
+				833DE64A19AD73CE00EF8466 /* AppDelegate.m */,
+				833DE66C19AD781700EF8466 /* WebViewController.h */,
+				833DE66D19AD781700EF8466 /* WebViewController.m */,
+				833DE64C19AD73CE00EF8466 /* Images.xcassets */,
+				833DE64119AD73CE00EF8466 /* Supporting Files */,
+			);
+			path = ZFCWebView;
+			sourceTree = "<group>";
+		};
+		833DE64119AD73CE00EF8466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				833DE69019ADCE3000EF8466 /* MBProgressHUD */,
+				833DE67419ADAD0400EF8466 /* images */,
+				833DE64219AD73CE00EF8466 /* ZFCWebView-Info.plist */,
+				833DE64319AD73CE00EF8466 /* InfoPlist.strings */,
+				833DE64619AD73CE00EF8466 /* main.m */,
+				833DE64819AD73CE00EF8466 /* ZFCWebView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		833DE65919AD73CE00EF8466 /* ZFCWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				833DE65F19AD73CE00EF8466 /* ZFCWebViewTests.m */,
+				833DE65A19AD73CE00EF8466 /* Supporting Files */,
+			);
+			path = ZFCWebViewTests;
+			sourceTree = "<group>";
+		};
+		833DE65A19AD73CE00EF8466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				833DE65B19AD73CE00EF8466 /* ZFCWebViewTests-Info.plist */,
+				833DE65C19AD73CE00EF8466 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		833DE67419ADAD0400EF8466 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				833DE67519ADAD1500EF8466 /* toolbar_leftarrow_highlighted@2x.png */,
+				833DE67619ADAD1500EF8466 /* toolbar_leftarrow@2x.png */,
+				833DE67719ADAD1500EF8466 /* toolbar_refresh_highlighted@2x.png */,
+				833DE67819ADAD1500EF8466 /* toolbar_refresh@2x.png */,
+				833DE67919ADAD1500EF8466 /* toolbar_rightarrow_highlighted@2x.png */,
+				833DE67A19ADAD1500EF8466 /* toolbar_rightarrow@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		833DE69019ADCE3000EF8466 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				833DE69119ADCE3A00EF8466 /* MBProgressHUD.h */,
+				833DE69219ADCE3A00EF8466 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		833DE63619AD73CE00EF8466 /* ZFCWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833DE66319AD73CE00EF8466 /* Build configuration list for PBXNativeTarget "ZFCWebView" */;
+			buildPhases = (
+				833DE63319AD73CE00EF8466 /* Sources */,
+				833DE63419AD73CE00EF8466 /* Frameworks */,
+				833DE63519AD73CE00EF8466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFCWebView;
+			productName = ZFCWebView;
+			productReference = 833DE63719AD73CE00EF8466 /* ZFCWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		833DE65119AD73CE00EF8466 /* ZFCWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833DE66619AD73CE00EF8466 /* Build configuration list for PBXNativeTarget "ZFCWebViewTests" */;
+			buildPhases = (
+				833DE64E19AD73CE00EF8466 /* Sources */,
+				833DE64F19AD73CE00EF8466 /* Frameworks */,
+				833DE65019AD73CE00EF8466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833DE65819AD73CE00EF8466 /* PBXTargetDependency */,
+			);
+			name = ZFCWebViewTests;
+			productName = ZFCWebViewTests;
+			productReference = 833DE65219AD73CE00EF8466 /* ZFCWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		833DE62F19AD73CE00EF8466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ZhaoFucheng;
+				TargetAttributes = {
+					833DE65119AD73CE00EF8466 = {
+						TestTargetID = 833DE63619AD73CE00EF8466;
+					};
+				};
+			};
+			buildConfigurationList = 833DE63219AD73CE00EF8466 /* Build configuration list for PBXProject "ZFCWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 833DE62E19AD73CE00EF8466;
+			productRefGroup = 833DE63819AD73CE00EF8466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				833DE63619AD73CE00EF8466 /* ZFCWebView */,
+				833DE65119AD73CE00EF8466 /* ZFCWebViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		833DE63519AD73CE00EF8466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833DE67E19ADAD1500EF8466 /* toolbar_refresh@2x.png in Resources */,
+				833DE68019ADAD1500EF8466 /* toolbar_rightarrow@2x.png in Resources */,
+				833DE67B19ADAD1500EF8466 /* toolbar_leftarrow_highlighted@2x.png in Resources */,
+				833DE67C19ADAD1500EF8466 /* toolbar_leftarrow@2x.png in Resources */,
+				833DE64519AD73CE00EF8466 /* InfoPlist.strings in Resources */,
+				833DE67F19ADAD1500EF8466 /* toolbar_rightarrow_highlighted@2x.png in Resources */,
+				833DE64D19AD73CE00EF8466 /* Images.xcassets in Resources */,
+				833DE67D19ADAD1500EF8466 /* toolbar_refresh_highlighted@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833DE65019AD73CE00EF8466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833DE65E19AD73CE00EF8466 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		833DE63319AD73CE00EF8466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833DE64B19AD73CE00EF8466 /* AppDelegate.m in Sources */,
+				833DE66E19AD781700EF8466 /* WebViewController.m in Sources */,
+				833DE69319ADCE3A00EF8466 /* MBProgressHUD.m in Sources */,
+				833DE64719AD73CE00EF8466 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833DE64E19AD73CE00EF8466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833DE66019AD73CE00EF8466 /* ZFCWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		833DE65819AD73CE00EF8466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 833DE63619AD73CE00EF8466 /* ZFCWebView */;
+			targetProxy = 833DE65719AD73CE00EF8466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		833DE64319AD73CE00EF8466 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833DE64419AD73CE00EF8466 /* en */,
+				833DE67019AD89D000EF8466 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		833DE65C19AD73CE00EF8466 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833DE65D19AD73CE00EF8466 /* en */,
+				833DE67119AD89D000EF8466 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		833DE66119AD73CE00EF8466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		833DE66219AD73CE00EF8466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		833DE66419AD73CE00EF8466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZFCWebView/ZFCWebView-Prefix.pch";
+				INFOPLIST_FILE = "ZFCWebView/ZFCWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		833DE66519AD73CE00EF8466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZFCWebView/ZFCWebView-Prefix.pch";
+				INFOPLIST_FILE = "ZFCWebView/ZFCWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		833DE66719AD73CE00EF8466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZFCWebView.app/ZFCWebView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZFCWebView/ZFCWebView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZFCWebViewTests/ZFCWebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		833DE66819AD73CE00EF8466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZFCWebView.app/ZFCWebView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZFCWebView/ZFCWebView-Prefix.pch";
+				INFOPLIST_FILE = "ZFCWebViewTests/ZFCWebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		833DE63219AD73CE00EF8466 /* Build configuration list for PBXProject "ZFCWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833DE66119AD73CE00EF8466 /* Debug */,
+				833DE66219AD73CE00EF8466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833DE66319AD73CE00EF8466 /* Build configuration list for PBXNativeTarget "ZFCWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833DE66419AD73CE00EF8466 /* Debug */,
+				833DE66519AD73CE00EF8466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833DE66619AD73CE00EF8466 /* Build configuration list for PBXNativeTarget "ZFCWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833DE66719AD73CE00EF8466 /* Debug */,
+				833DE66819AD73CE00EF8466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 833DE62F19AD73CE00EF8466 /* Project object */;
+}
